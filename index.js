@@ -3,7 +3,7 @@ var socket = require('socket.io');
 
 //App setup
 var app = express();
-var sever = app.listen(2000,"172.16.6.161",function(){
+var sever = app.listen(2000,function(){
   console.log('listening on port 2000');
 });
 

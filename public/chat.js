@@ -1,5 +1,5 @@
 // connection client
-var socket = io.connect('http://172.16.6.161:2000');
+var socket = io.connect("localhost");
 
 //
 var message = document.getElementById('message');
